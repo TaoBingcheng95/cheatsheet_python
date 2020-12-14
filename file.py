@@ -10,7 +10,7 @@ Created on 2019/4/17 21:20
 """
 
 import os
-import signal
+# import signal
 import pathlib
 
 
@@ -59,7 +59,7 @@ def os_func():
     """
     操作系统模块
     该模块下的方法,对各个版本的兼容不明确,须谨慎使用.
-    测试版本: Python:3.7.1 Windows:Windows10,64bit
+    测试版本: Python:3.7.1 Windows:Windows10, 64bit
     """
     # === 系统 ===
     # strs = os.name  # 当前系统: Linux'posix' / Windows'nt' / 'ce' / 'java'
@@ -303,9 +303,9 @@ def pathlib_func():
 
 if __name__ == "__main__":
 
-    os_demo()
+    # os_demo()
     # path_demo()
-    # pathlib_demo()
+    pathlib_demo()
 
     # os_func()
     # path_func()
